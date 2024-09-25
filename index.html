@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/btn.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            background-color: #14213D;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="scrollToTop"><i class="fas fa-angle-up"></i></button>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="fixed-top navbar navbar-expand-lg navbar-dark nav-transparent" id="navbar"
+                style="background-color: #14213D;">
+                <div class="container" style=" margin: auto;">
+                    <a class="navbar-brand fs-2 fw-bolder" href="#">
+                        Portfo<span class="" id="lio">lio</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <div class="ms-auto">
+                            <ul class="navbar-nav d-flex mb-2 mb-lg-0 d-grid gap-3 fs-5 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#skills">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <hr>
+
+        <section id="home">
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-4 mt-5 text-center">
+                    <div class="row mt-5">
+                        <div class="col fw-semibold fs-3 mt-3">
+                            Hello, My name is
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col fw-bold fs-1 mt-1">
+                            Akshay Kumar Yadav
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col fw-semibold fs-3 mt-1">
+                            And I'm <span class="text-change" id="element"></span>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-around mt-5">
+                        <div class="col-4">
+                            <a href="#" target="_blank" class="btn home_btn border border-2 rounded-4"
+                                style="border-color: #FCA311;"><span class="fw-semibold fs-4">Hire me</span></a>
+                        </div>
+                        <div class="col-5">
+                            <a href="#" target="_blank" class="btn home_btn border border-2 rounded-4"
+                                style="border-color: #FCA311;"><span class="fw-semibold fs-4">Resume</span><img
+                                    class="ms-2" src="photo/basic/download.svg" width="25%" alt="" srcset=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-2 mt-5">
+                    <img src="photo/basic/pg1.png" width="100%" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="row">
+                        <div class="col">
+                            <div class="fs-1 fw-bold">About me</div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-1">
+                            <hr class="custom-hr">
+                        </div>
+                        <div class="col-md-2">
+                            <span class="fs-3 fw-bold text-change ">who i am</span>
+                        </div>
+                        <div class="col-md-1">
+                            <hr class="custom-hr" style="margin:22px -68px">
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-md-3 mt-5">
+                            <img class="rounded-circle" src="photo/basic/profile.jpg" width="120%" alt="">
+                        </div>
+                        <div class="col-md-6 mt-5">
+                            <div class="row mt-5">
+                                <div class="col">
+                                    <span class="fs-3 fw-bold">I'm Akshay And I'm <span class="text-change"
+                                            id="element1"></span></span>
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col">
+                                    <p class="fs-5">I'm web developers to design & develop creative websites that fits
+                                        their vision and attracts the visitors to stay for ever. Technologies and tools
+                                        that I use to create such awesome websites. And I'm Full Stack Java Developer.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-around">
+                                <div class="col-4">
+                                    <img id="mainButton" class="kyu p-2" src="photo/basic/share.svg" alt="">
+                                    <div id="additionalButtons" class="hidden">
+                                        <a class="kyu extra-button"><img src="photo/basic/linkedin.svg" width="50%"
+                                                alt="" srcset=""></a>
+                                        <a class="kyu extra-button"><img src="photo/basic/github.svg" width="60%"
+                                                alt="" srcset=""></a>
+                                        <a class="kyu extra-button"><img src="photo/basic/instagram.svg" width="60%"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="row d-flex justify-content-around">
+                <div class="col text-center">
+                    <h2 class="fs-1 fw-bold">Skills</h2>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-1">
+                    <hr class="custom-hr" style="margin: 22px -54px;">
+                </div>
+                <div class="col-md-2">
+                    <span class="fs-3 fw-bold text-change ">what i know</span>
+                </div>
+                <div class="col-md-1">
+                    <hr class="custom-hr" style="margin:22px -81px">
+                </div>
+            </div>
+            <div class="row d-flex mt-3 justify-content-around">
+                <div class="col-md-5">
+                    <p class="fs-2 fw-bolder text-change">My Creative Skill</p>
+                    <p>With expertise in custom software development, web and mobile app creation, and AI-driven
+                        solutions, I blend creativity with technical prowess. My experience spans diverse industries,
+                        delivering innovative and efficient solutions. From designing intuitive user interfaces to
+                        optimizing backend code, my goal is to bring your vision to life with precision and creativity
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <div class="row d-flex justify-content-between fs-5">
+                        <div class="col-md-1">
+                            <span>FRONTEND</span>
+                        </div>
+                        <div class="col-md-1">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example"
+                            style="width: 70%; background-color: #FCA311;" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                    <div class="row d-flex justify-content-between fs-5 mt-3">
+                        <div class="col-md-1">
+                            <span>BACKEND</span>
+                        </div>
+                        <div class="col-md-1">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example"
+                            style="width: 80%; background-color: #FCA311;" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                    <div class="row d-flex justify-content-between fs-5 mt-3">
+                        <div class="col-md-3">
+                            <span>FULL STACK</span>
+                        </div>
+                        <div class="col-md-1">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example"
+                            style="width: 75%; background-color: #FCA311;" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                    <div class="row d-flex justify-content-between fs-5">
+                        <div class="col-md-1">
+                            <span>JAVA</span>
+                        </div>
+                        <div class="col-md-1">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example"
+                            style="width: 80%; background-color: #FCA311;" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="row mt-5">
+            <section id="projects">
+                <div class="col">
+                    <div class="row text-center">
+                        <div class="col">
+                            <p class="fs-2 fw-bolder">My Projects</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-1">
+                            <hr class="custom-hr" style="margin: 22px -54px;">
+                        </div>
+                        <div class="col-md-2">
+                            <span class="fs-3 fw-bold text-change ">what i made</span>
+                        </div>
+                        <div class="col-md-1">
+                            <hr class="custom-hr" style="margin:22px -81px">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <div class="row d-flex justify-content-around">
+                                <div class="col-8 text-center ">
+                                    <div id="carouselExampleFade" class="border-change carousel slide carousel-fade"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="photo/project/one/one.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="photo/project/one/two.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="photo/project/one/three.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="photo/project/one/four.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="photo/project/one/five.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="photo/project/one/six.png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-center">
+                                    <p class="fs-3 fw-semibold">
+                                        Worker Managemet Application
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-around">
+                                <!-- <div class="col-1">
+                                    <a href="http://localhost:8080/wma/" class="btn proj_btn fs-5 fw-semibold">Live</a>
+                                </div> -->
+                                <div class="col-1">
+                                    <a href="https://drive.google.com/drive/folders/18FyTVfpmyqOqed-CSB2MmdF6agwLM5Y3?usp=sharing" target="_blank" class="btn proj_btn fs-5 fw-semibold">Vedio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col">
+                            <div class="row d-flex justify-content-around">
+                                <div class="col-8 text-center ">
+                                    <div id="carouselExampleFade" class=" border-change carousel slide carousel-fade"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="2000">
+                                                <img src="photo/project/two/one.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <!-- <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="photo/project/one.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="photo/project/two.png" class="d-block w-100" alt="...">
+                                            </div> -->
+                                        </div>
+                                        <!-- <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-center">
+                                    <p class="fs-3 fw-semibold">
+                                        Tic Tac Teo
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-around">
+                                <div class="col-1">
+                                    <a href="https://akshayyadav24.github.io/tic-tac-teo/" target="_blank" class="btn proj_btn fs-5 fw-semibold">Live</a>
+                                </div>
+                                <!-- <div class="col-1">
+                                    <a href="http://localhost:8080/wma/" class="btn proj_btn fs-5 fw-semibold">Vedio</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="contact" class="mb-4">
+            <div class="row">
+                <div class="col">
+                    <h1 class="fs-2 fw-bolder text-center">Contect me</h1>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-1">
+                        <hr class="custom-hr"  style="margin: 22px -54px">
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fs-3 fw-bold text-change ">get in touch</span>
+                    </div>
+                    <div class="col-md-1">
+                        <hr class="custom-hr" style="margin:22px -81px">
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="row d-flex justify-content-around mt-4">
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-3 fw-semibold">Get in Touch</p>
+                            <div class="col fs-5">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="photo/basic/user.svg" width="70%" alt="" srcset="">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <span>Name</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <span class="text-change">Akshay Kumar Yadav</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-2">
+                            <img src="photo/basic/email.svg" width="50%" alt="" srcset="">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <span>
+                                        Email
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <span class="text-change">yadavakshaykumar2003@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-2">
+                            <img src="photo/basic/phone.svg" width="50%" alt="" srcset="">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <span>Phone</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <span class="text-change">6261492614</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-4 fw-bolder">Message me</p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col ">
+                            <form action="#" id="con" class="">
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <input type="text" name="name" id="name" class="form-control form-control-lg"
+                                            placeholder="Name" aria-label="name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" id="email" name="name" class="form-control form-control-lg"
+                                            placeholder="Email" aria-label="email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <input type="text" name="sub" placeholder="Subject"
+                                                class="form-control form-control-lg" id="sub" aria-describedby="sub">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <textarea name="msg" class="form-control" placeholder="Message" id="msg"
+                                                rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn background-change fs-5 mb-3">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: none; border-top: 5px solid whitesmoke;">
+
+        <footer class="mb-5">
+            <div class="row">
+                <div class="col text-center">
+                    <p>Created by <span class="text-change">Akshay |</span> &copy; 2024 All rights reserved.</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-1">
+                    <a href="" target="_blank"><img src="photo/basic/linkedin_footer.svg" width="30%" alt=""></a>
+                </div>
+                <div class="col-1">
+                    <a href="" target="_blank"><img src="photo/basic/github-footer.svg" width="30%" alt=""></a>
+                </div>
+                <div class="col-1">
+                    <a href="" target="_blank"><img src="photo/basic/instagram_footer.svg" width="30%" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/btn.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/scroll_top.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/type_script.js"></script>
+</body>
+
+</html>

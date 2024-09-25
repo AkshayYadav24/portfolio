@@ -1,0 +1,80 @@
+section {
+    padding-top: 77px;
+}
+
+.nav-item:hover {
+    color: #FCA311
+}
+
+.navbar {
+    width: 100%;
+}
+
+.text-change {
+    color: #FCA311;
+}
+
+.home_btn:hover {
+    background-color: #FCA311;
+}
+
+.home_btn:hover span {
+    background-color: #FCA311;
+}
+
+.home_btn:hover img {
+    background-color: #FCA311;
+}
+
+.proj_btn {
+    background-color: white;
+    border: 4px solid white;
+}
+
+.proj_btn:hover {
+    background-color: #FCA311;
+    color: white;
+    border: 4px solid white;
+}
+
+.border-change {
+    border: 3px solid #FCA311;
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 45px;
+    width: 42px;
+    color: #14213D;
+    display: none;
+    background-color: #FCA311;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    /* font-size: 30px; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fas {
+    font-weight: 900;
+    background-color: #FCA311;
+}
+
+.background-change {
+    background-color: #FCA311;
+}
+
+.background-change:hover {
+    border: 4px solid white;
+}
+
+.custom-hr {
+    width: 172px;
+    height: 10px;
+    background-color: white;
+    border: 5px solid white(226, 7, 7);
+    margin: 22px auto;
+}
